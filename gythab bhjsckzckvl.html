@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gashi Grande</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f4f4f4, #e2e2e2);
+        }
+        .header {
+            background: url('https://source.unsplash.com/random/1920x400') no-repeat center center/cover;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .nav a {
+            color: white;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.3s, color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #ddd;
+            color: #444;
+        }
+        .container {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .section {
+            margin: 1rem;
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            flex: 1 1 45%;
+            max-width: 45%;
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .section h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .section p, .section ul {
+            color: #555;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Gashi Grande</h1>
+        <p>Social Media Strategist | IT Expert | Trader | Hip Hop Artist | Designer</p>
+    </div>
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Gashi Grande</h2>
+            <img src="https://source.unsplash.com/random/600x400" alt="About Gashi Grande">
+            <p>Gashi Grande is a multi-talented professional excelling in social media strategy, IT, trading, hip hop, and design. His journey has been one of passion and dedication...</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Services</h2>
+            <img src="https://source.unsplash.com/random/601x401" alt="Services">
+            <ul>
+                <li>Social Media Strategy</li>
+                <li>IT Consulting</li>
+                <li>Trading Advice</li>
+                <li>Hip Hop Music Production</li>
+                <li>Graphic Design</li>
+            </ul>
+        </div>
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <img src="https://source.unsplash.com/random/602x402" alt="Projects">
+            <p>Explore some of Gashi Grande's recent projects that showcase his diverse skill set, including...</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <img src="https://source.unsplash.com/random/603x403" alt="Contact">
+            <p>Get in touch with Gashi Grande for collaborations or inquiries:</p>
+            <p>Email: example@example.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Gashi Grande. All rights reserved.</p>
+    </div>
+</body>
+</html>
